@@ -20,3 +20,14 @@
 .funding-disclaimer strong{color:var(--ink)}
 @media(max-width:800px){.funding-inner{gap:30px}.funding-section{padding:42px 0}}
 @media(max-width:640px){.funding-inner{display:block}.funding-copy{margin-top:28px}.funding-eu{margin-top:20px}.funding-copy p{font-size:12px}.funding-copy .funding-disclaimer{font-size:10px}}
+
+
+/* Researcher details */
+.researcher-section{padding:55px 0 65px;border-top:1px solid var(--line);background:var(--paper)}
+.researcher-inner{max-width:1240px}
+.researcher-inner .eyebrow{margin-bottom:15px;color:var(--green)}
+.researcher-inner h2{font-size:clamp(30px,3.6vw,43px);letter-spacing:-1.5px;line-height:1.2;margin-bottom:19px}
+.researcher-inner>p:not(.eyebrow){font-size:13px;color:var(--muted);line-height:1.8;margin-top:7px}
+.researcher-inner a{color:var(--green);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.researcher-inner a:hover{color:#65845d}
+@media(max-width:640px){.researcher-section{padding:42px 0 50px}.researcher-inner h2{font-size:33px}.researcher-inner>p:not(.eyebrow){font-size:12px}}
