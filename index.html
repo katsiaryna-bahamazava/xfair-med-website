@@ -21,7 +21,7 @@
     <div class="container header-inner">
       <a class="brand" href="#" aria-label="XFAIR-MED home"><svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M4 4h9v9H4zM19 4h9v9h-9zM4 19h9v9H4zM19 19h9v9h-9z" fill="currentColor"/><path d="m13 13 6 6m0-6-6 6" stroke="currentColor" stroke-width="3"/></svg><span>XFAIR<span class="brand-light">–MED</span></span></a>
       <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
-      <nav id="main-nav" aria-label="Main navigation"><a href="#project">The project</a><a href="#methodology">Methodology</a><a href="#findings">Findings</a><a href="#funding">Funding</a><a class="nav-cta" href="#toolkit">Explore the toolkit <span aria-hidden="true">↗</span></a></nav>
+      <nav id="main-nav" aria-label="Main navigation"><a href="#project">The project</a><a href="#methodology">Methodology</a><a href="#findings">Findings</a><a href="#researcher">The researcher</a><a href="#funding">Funding</a><a class="nav-cta" href="#toolkit">Explore the toolkit <span aria-hidden="true">↗</span></a></nav>
     </div>
   </header>
   <main id="main">
@@ -85,6 +85,26 @@
     </div></section>
 
     <section class="section container faq-section" aria-labelledby="faq-title"><div><p class="eyebrow">A FEW IMPORTANT DISTINCTIONS</p><h2 id="faq-title">Understanding<br>the audit.</h2></div><div class="faq-list"><details><summary>What do I need to run an audit?<span aria-hidden="true">+</span></summary><p>A dataset with a defined outcome and audit groups, a predictor panel, and the models or prediction outputs required by the workflow. Explanation analyses also need attributions or model access. The linked TCGA study includes a concrete data-preparation and training workflow.</p></details><details><summary>What does XFAIR-MED produce?<span aria-hidden="true">+</span></summary><p>Layer scores, subgroup diagnostic tables, support flags, and an aggregate score where the required components are available. The current TCGA workflow reports partial EXL and XCFS because it uses ASS and ERS without SAS and CSD.</p></details><details><summary>Is this a clinical decision tool?<span aria-hidden="true">+</span></summary><p>XFAIR-MED is a research audit toolkit. Its scores describe selected properties under a defined audit protocol; they do not certify fairness, establish causality, or validate a model for clinical use.</p></details><details><summary>How does the explanation layer relate to SHAP?<span aria-hidden="true">+</span></summary><p>Attribution methods describe which inputs influence a prediction. The explanation layer asks further questions about patterns across groups and stability under changes. Attribution consistency and explanation fidelity are different properties and should be evaluated separately.</p></details></div></section>
+    <section id="researcher" class="section container researcher-section" aria-labelledby="researcher-title">
+      <div class="researcher-intro">
+        <p class="eyebrow">THE RESEARCHER</p>
+        <h2 id="researcher-title">Dr Katsiaryna Bahamazava</h2>
+        <p class="researcher-role">Marie Skłodowska-Curie Postdoctoral Fellow, ROSETTA</p>
+        <div class="researcher-contact">
+          <a class="button button-dark" href="mailto:Katsiaryna.Bahamazava@ul.ie">Katsiaryna.Bahamazava@ul.ie <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="https://orcid.org/0000-0001-6645-5276" target="_blank" rel="noopener noreferrer">ORCID 0000-0001-6645-5276 <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="researcher-details">
+        <dl class="affiliation-list">
+          <div><dt>Department</dt><dd>Department of Computer Science and Information Systems, University of Limerick, Ireland</dd></div>
+          <div><dt>Research centre</dt><dd>Lero, the Research Ireland Centre for Software</dd></div>
+          <div><dt>Institute</dt><dd>Health Research Institute, University of Limerick</dd></div>
+          <div><dt>Supervision</dt><dd>Dr Katie Crowley (UL · Lero · HRI) and Dr Ruairí O’Reilly (Munster Technological University · Lero)</dd></div>
+        </dl>
+        <p class="researcher-bio">An interdisciplinary researcher working across computer science, applied economics and algorithmic fairness. After a PhD in Economics and postdoctoral research in applied mathematics at Politecnico di Torino, she developed <a href="https://doi.org/10.1007/978-3-032-08317-3_18" target="_blank" rel="noopener noreferrer">FAIR-MED</a>, a framework for bias detection in healthcare-focused explainable AI. XFAIR-MED extends it to model and explanation auditing across molecular subgroups.</p>
+      </div>
+    </section>
     <section class="closing container"><p class="small-label">XFAIR-MED</p><h2>Make the differences visible.</h2><a class="text-link" href="#methodology">Explore the audit <span aria-hidden="true">↑</span></a></section>
 
     <section class="funding-section" id="funding" aria-labelledby="funding-title">
