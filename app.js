@@ -159,3 +159,16 @@ document.querySelector('#copy-code').addEventListener('click', async () => {
   clearTimeout(copyReset);
   copyReset = setTimeout(() => { label.textContent = 'Copy'; }, 2500);
 });
+
+document.querySelectorAll('.copy-ack').forEach(button => {
+  button.addEventListener('click', async () => {
+    const text = document.getElementById(button.dataset.copyTarget).textContent.trim();
+    try {
+      await navigator.clipboard.writeText(text);
+      button.textContent = 'Copied';
+    } catch (error) {
+      button.textContent = 'Select text to copy';
+    }
+    setTimeout(() => { button.textContent = 'Copy'; }, 1800);
+  });
+});

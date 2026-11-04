@@ -8,15 +8,50 @@
 
 
 /* Funding acknowledgement */
-.funding-section{padding:50px 0 55px;background:var(--sage);border-top:1px solid var(--line)}
-.funding-inner{display:grid;grid-template-columns:minmax(230px,.7fr) minmax(0,1.3fr);gap:70px;align-items:start}
-.funding-heading .eyebrow{margin-bottom:15px;color:#526d5e}
-.funding-heading h2{font-size:clamp(28px,3vw,38px);letter-spacing:-1.5px;line-height:1.2}
-.funding-eu{display:flex;align-items:center;gap:14px;margin-top:26px}
-.eu-emblem{display:block;width:90px;height:60px;flex:none}
-.funding-eu span{font-size:11px;font-weight:600;line-height:1.4;max-width:180px}
-.funding-copy p{font-size:12px;color:var(--ink);line-height:1.8;max-width:750px}
-.funding-copy .funding-disclaimer{margin-top:19px;font-size:10px;color:var(--muted);line-height:1.8}
+.funding-section{padding:90px 0 80px;background:var(--sage);border-top:1px solid var(--line)}
+.funding-top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:70px;align-items:end;margin-bottom:46px}
+.funding-heading .eyebrow{margin-bottom:18px;color:#526d5e}
+.funding-heading h2{font-size:clamp(32px,3.6vw,46px);letter-spacing:-1.8px;line-height:1.1}
+.funding-lead{font-size:15px;line-height:1.75;color:#3d4c45;max-width:560px}
+.funding-lead a{text-decoration:underline;text-underline-offset:3px;text-decoration-color:#9fb28f}
+.funding-lead a:hover{color:var(--green)}
+.fellowship-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:0 0 36px;border-top:1px solid #cbd6c3;border-bottom:1px solid #cbd6c3}
+.fellowship-facts>div{padding:22px 22px 22px 0}
+.fellowship-facts>div+div{padding-left:22px;border-left:1px solid #cbd6c3}
+.fellowship-facts dt{font-size:9px;letter-spacing:1.4px;text-transform:uppercase;color:#6e8070;font-weight:600;margin-bottom:10px}
+.fellowship-facts dd{margin:0;font-family:var(--serif);font-size:19px;letter-spacing:-.4px;line-height:1.3}
+.fellowship-facts dd span{display:block;font-family:var(--sans);font-size:11px;letter-spacing:0;color:var(--muted);margin-top:6px;line-height:1.5}
+.funder-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.funder-card{display:flex;gap:28px;background:var(--paper);border:1px solid #d3dccb;border-radius:4px;padding:30px}
+.funder-mark{flex:none;width:120px;display:flex;flex-direction:column;gap:10px}
+.funder-mark .eu-emblem{width:120px;height:80px;display:block}
+.eu-label{font-size:11px;font-weight:700;line-height:1.35;color:#003399}
+.funder-initials{height:80px;border-radius:3px;background:var(--green);align-items:center;justify-content:center}
+.funder-initials span{font-family:var(--serif);font-size:34px;color:#e6efd7;letter-spacing:-1px}
+.funder-body{min-width:0}
+.funder-body .small-label{color:#738569;font-size:8px}
+.funder-body h3{font-family:var(--serif);font-size:24px;line-height:1.2;letter-spacing:-.6px;margin:10px 0 8px}
+.funder-body>p:not(.small-label){font-size:12px;color:var(--muted)}
+.funder-body .grant-id{margin:16px 0 16px;font-size:15px!important;color:var(--ink)!important;font-variant-numeric:tabular-nums;font-weight:600}
+.grant-id span{display:block;font-size:9px;letter-spacing:1.2px;text-transform:uppercase;color:#7a8a72;font-weight:600;margin-bottom:4px}
+.funder-body .text-link{color:var(--green)}
+.partner-block{margin-top:44px}
+.partner-block>.small-label{color:#6e8070;font-size:9px;margin-bottom:16px}
+.partner-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid #cbd6c3}
+.partner-list li{padding:16px 18px 16px 0;border-bottom:1px solid #cbd6c3;font-size:14px;line-height:1.45;display:flex;flex-direction:column;gap:5px}
+.partner-role{font-size:9px;letter-spacing:1.2px;text-transform:uppercase;color:#7a8a72;font-weight:600}
+.partner-list a{text-decoration:underline;text-decoration-color:#a8b99c;text-underline-offset:3px}
+.partner-list a:hover{color:var(--green)}
+.acknowledgement-box{margin-top:44px;background:#f2f5ee;border-left:3px solid var(--green);padding:22px 26px;border-radius:0 4px 4px 0}
+.ack-header{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:10px}
+.ack-header .small-label{color:#5d7466;font-size:9px}
+.copy-ack{border:1px solid #b8c6b0;background:var(--paper);border-radius:3px;font-size:11px;padding:7px 12px;color:var(--green)}
+.copy-ack:hover{background:#e6ecdf}
+#ack-text{font-family:var(--serif);font-size:16px;line-height:1.65;color:var(--ink);max-width:960px}
+.funding-disclaimer{margin-top:26px;font-size:11px;color:var(--muted);line-height:1.75;max-width:960px}
 .funding-disclaimer strong{color:var(--ink)}
-@media(max-width:800px){.funding-inner{gap:30px}.funding-section{padding:42px 0}}
-@media(max-width:640px){.funding-inner{display:block}.funding-copy{margin-top:28px}.funding-eu{margin-top:20px}.funding-copy p{font-size:12px}.funding-copy .funding-disclaimer{font-size:10px}}
+.footer-funding{color:#46663c}
+.footer-funding:hover{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:1050px){.fellowship-facts{grid-template-columns:1fr 1fr}.fellowship-facts>div:nth-child(3){padding-left:0;border-left:0}.fellowship-facts>div:nth-child(n+3){border-top:1px solid #cbd6c3}.funder-card{flex-direction:column;gap:20px}.partner-list{grid-template-columns:1fr 1fr}}
+@media(max-width:800px){.funding-section{padding:64px 0}.funding-top{grid-template-columns:1fr;gap:20px;margin-bottom:34px}}
+@media(max-width:640px){.funding-section{padding:54px 0}.funding-lead{font-size:14px}.fellowship-facts{grid-template-columns:1fr}.fellowship-facts>div,.fellowship-facts>div+div{padding:18px 0;border-left:0}.fellowship-facts>div+div{border-top:1px solid #cbd6c3}.funder-grid{grid-template-columns:1fr}.funder-card{padding:24px}.partner-list{grid-template-columns:1fr}.partner-list li{padding-right:0}#ack-text{font-size:15px}.acknowledgement-box{padding:20px}.footer-inner>div{flex-wrap:wrap;gap:12px}}

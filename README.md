@@ -24,6 +24,13 @@ Results are preliminary. The semi-synthetic comparison is a known-answer impleme
 
 ## Funding and acknowledgements
 
-The XFAIR-MED research project is conducted at the University of Limerick through the ROSETTA Fellowship Programme. The research has emanated from work jointly funded by Taighde Éireann – Research Ireland under Grant No. 13/RC/2094_2 and the European Union’s Marie Skłodowska-Curie Actions under Grant Agreement No. 101126578, and supported in part by the University of Galway. We also acknowledge the support of Lero, the Research Ireland Centre for Software.
+XFAIR-MED is a Marie Skłodowska-Curie Postdoctoral Fellowship (May 2026 – May 2028) within the ROSETTA fellowship programme, hosted at the University of Limerick and coordinated by Lero, the Research Ireland Centre for Software.
+
+| Funder | Programme | Grant |
+|---|---|---|
+| European Union | Marie Skłodowska-Curie Actions (COFUND, ROSETTA) | Grant Agreement No. 101126578 |
+| Taighde Éireann – Research Ireland | Lero, the Research Ireland Centre for Software | Grant No. 13/RC/2094_2 |
+
+**Acknowledgement statement:** This research has emanated from work jointly funded by Taighde Éireann – Research Ireland under Grant No. 13/RC/2094_2 and the European Union’s Marie Skłodowska-Curie Actions under Grant Agreement No. 101126578 (ROSETTA), and was supported in part by the University of Galway.
 
 Co-funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Executive Agency. Neither the European Union nor the granting authority can be held responsible for them.
