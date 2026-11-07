@@ -31,3 +31,8 @@
 .researcher-inner a{color:var(--green);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
 .researcher-inner a:hover{color:#65845d}
 @media(max-width:640px){.researcher-section{padding:42px 0 50px}.researcher-inner h2{font-size:33px}.researcher-inner>p:not(.eyebrow){font-size:12px}}
+
+/* Funding and partner logos from the ROSETTA reference */
+.funding-logos{display:block;grid-column:1/-1;background:#fff;padding:16px;border-radius:3px}
+.funding-logos img{display:block;width:100%;height:auto}
+@media(max-width:640px){.funding-logos{margin-top:28px;padding:10px}}
